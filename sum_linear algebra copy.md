@@ -2,7 +2,7 @@
 
 <ul>
 
-## 行列式的<span style="background-color:#ffff26;">定义</span>与<span style="background-color:#ffff26;">性质</span>
+## **0 行列式的<span style="background-color:#ffff26;">定义</span>与<span style="background-color:#ffff26;">性质**</span>
 
 <ul>
 
@@ -147,7 +147,7 @@
 
 </ul>
 
-## 行列式的 *<u>计算</u>*
+## **1 行列式的** *<u>计算</u>*
 
 <ul>
 
@@ -161,7 +161,7 @@
 
 </ul>
 
-## 余子式与代数余子式的 *<u>计算</u>*
+## **2 余子式与代数余子式的** *<u>计算</u>*
 
 <ul>
 
@@ -173,7 +173,7 @@
 
 <ul>
 
-## 矩阵的<span style="background-color:#ffff26;">定义</span>及其<u>基本</u><span style="color:#3da8f5;"><u>运算</u></span>
+## **0 矩阵的<span style="background-color:#ffff26;">定义</span>及其<u>基本</u><span style="color:#3da8f5;"><u>运算</u></span>**
 
 <ul>
 
@@ -441,7 +441,7 @@
 
 </ul>
 
-## <span style="background-color:#ffff26;">初等</span><span style="color:#75c940;">变换</span>与<span style="background-color:#ffff26;">初等</span><span style="color:#3da8f5;">矩阵</span>
+## **2 <span style="background-color:#ffff26;">初等</span><span style="color:#75c940;">变换</span>与<span style="background-color:#ffff26;">初等</span><span style="color:#3da8f5;">矩阵</span>**
 
 <ul>
 
@@ -465,7 +465,7 @@
 
 </ul>
 
-## <span style="color:#75c940;">等价</span><span style="color:#3da8f5;">矩阵</span> <span style="color:#3da8f5;">矩阵</span>的<span style="color:#75c940;">等价</span><u>标准形</u> | <span style="color:#3da8f5;">矩阵</span><span style="background-color:#ffff26;">方程</span>
+## **3 <span style="color:#75c940;">等价</span><span style="color:#3da8f5;">矩阵</span> <span style="color:#3da8f5;">矩阵</span>的<span style="color:#75c940;">等价</span><u>标准形</u> | <span style="color:#3da8f5;">矩阵</span><span style="background-color:#ffff26;">方程</span>**
 
 <ul>
 
@@ -811,7 +811,7 @@
 
 <ul>
 
-#### **1)<span style="background-color:#ffff26;">齐次</span>**
+### **1)<span style="background-color:#ffff26;">齐次</span>**
 
 <ul>
 
@@ -1228,7 +1228,7 @@
 
 </ul>
 
-## **1 化二次型为<span style="color:#3da8f5;">标准形</span>与规范形**
+### **1 化二次型为<span style="color:#3da8f5;">标准形</span>与规范形**
 
 <ul>
 
