@@ -1,12 +1,14 @@
-# **01** <span style="color:#75c940;">**行列式**</span>
+<div style="float: left; width: 64%; padding: 1%;">
+
+# <span style="font-size: 20px;"> <b><span style="color: gray;">01</span> <span style="color:#75c940;">行列式</span></b>
 
 <ul>
 
-## 行列式的<span style="background-color:#ffff26;">定义</span>与<span style="background-color:#ffff26;">性质</span>
+## <span style="color: orange;">定义</span>与<span style="color: orange;">性质</span>
 
 <ul>
 
-### **(1)**<span style="color:#75c940;"> </span><span style="color:#ffaf38;">**本质**</span>**定义（第一种定义）**
+### <span style="color:#75c940;"> </span><span style="color:#ffaf38;">**本质**</span>**定义（第一种定义）** <span style="color: gray;">(3definition 1性质 1types
 
 <ul>
 
@@ -14,6 +16,7 @@
 
 </ul>
 
+---
 ### <span style="color:#3da8f5;">**性质**</span>
 
 <ul>
@@ -32,8 +35,9 @@
         - a line /column = K \* b line/column
 
 </ul>
+---
 
-### **(2)**<span style="color:#3da8f5;">**逆序数法**</span>**定义（第二种定义）**
+### <span style="color:#3da8f5;">逆序数法</span>**..（..二..）**
 
 <ul>
 
@@ -45,12 +49,12 @@
     - 例
         ![](https://api2.mubu.com/v3/document_image/af77239c-f040-4685-a0ee-834a6f9e6f7f-15201174.jpg)
 2.  B.<span style="color:#797ec9;">排列</span>：
-    - <span style="color:#3da8f5;">有序</span><span style="background-color:#ffff26;">数组</span>
+    - <span style="color:#3da8f5;">有序</span><span style="color: orange;">数组</span>
         - ![](https://api2.mubu.com/v3/document_image/4841fcdc-ea2f-41fd-af74-d87b969a58ba-15201174.jpg)
 
 </ul>
 
-#### **(3)**<span style="color:#75c940;">**展开定理**</span>**（第三种定义）**
+### <span style="color:#75c940;">**展开定理**</span>**（..三..）**
 
 <ul>
 
@@ -58,11 +62,11 @@
     - <span style="color:#75c940;">去掉</span>$a_{ij}$​​​​​​ 所在的 第i行，第j列元素
     - 剩下的元素按 原 位与序组，成<span style="color:#3da8f5;">n-1</span>阶行列式
     - 称为元素$a_{ij}$​​​​​​的余子式，记作$M_{ij}$​​​​​​
-2.  B.<span style="background-color:#ffff26;">代数</span><span style="color:#3da8f5;">余子式</span>$A_{ij}$​​​​​​
+2.  B.<span style="color: orange;">代数</span><span style="color:#3da8f5;">余子式</span>$A_{ij}$​​​​​​
     - //带有符号 的余子式
     - $A_{ij}$=<span style="color:#3da8f5;">$(-1)^{i+j}$</span>​​​​​​​​​​ $M_{ij}$​​​​​​
 3.  C.按行/列展开 $|A|$​​​
-    - //<u>某 行/列</u> 元素$a_{ij}$​​​​​​ 分别<span style="background-color:#ffff26;">乘以</span> 其$A_{ij}$​​​​​​ 再<span style="color:#3da8f5;">累加</span>
+    - //<u>某 行/列</u> 元素$a_{ij}$​​​​​​ 分别<span style="color: orange;">乘以</span> 其$A_{ij}$​​​​​​ 再<span style="color:#3da8f5;">累加</span>
     - $|A|$​​​
         - ![](https://api2.mubu.com/v3/document_image/b1cdd50c-32c5-4846-81b7-94de2286fe14-15201174.jpg)
     - <span style="color:#3da8f5;">性质</span>
@@ -70,15 +74,15 @@
 
 </ul>
 
-### **△4类重要的行列式**
+### **△4类 行列式**
 
 <ul>
 
-#### **A.**<span style="background-color:#ffff26;">**对角**</span>**线：**
+#### <span style="color: orange;">**对角**</span>**线：**
 
 <ul>
 
-##### **1)**<span style="color:#797ec9;">**主**</span><span style="background-color:#ffff26;">**对角**</span>**线 行列式**
+##### <span style="color:#797ec9;">**主**</span>
 
 <ul>
 
@@ -90,26 +94,26 @@
 
 </ul>
 
-##### **2)**<span style="color:#3da8f5;">**副**</span>**对角线 行列式**
+##### <span style="color:#3da8f5;">副</span>..
 
 <ul>
 
 - ![](https://api2.mubu.com/v3/document_image/a4fd60f9-973b-4d58-b7b3-b243ec2dc854-15201174.jpg)
 - ![](https://api2.mubu.com/v3/document_image/9d84fedc-97ff-4e46-935a-4c9cf8a6e864-15201174.jpg)
 - ![](https://api2.mubu.com/v3/document_image/cf5d337b-a2d5-43fe-82ef-fcac8088275b-15201174.jpg)
-- 值都等于 <span style="color:#3da8f5;">$(-1)^\frac{n(n-1)}{2}$</span>​​​​​​​​​​​​​​​​​​​​​<span style="color:#3da8f5;"> </span>副对角线元素 <span style="background-color:#ffff26;">累乘</span>
+- 值都等于 <span style="color:#3da8f5;">$(-1)^\frac{n(n-1)}{2}$</span>​​​​​​​​​​​​​​​​​​​​​<span style="color:#3da8f5;"> </span>副对角线元素 <span style="color: orange;">累乘</span>
 
 </ul>
 
 </ul>
 
-### **B.**<span style="color:#3da8f5;">**拉普拉斯**</span>** **<u>展开式</u>**
+#### **拉普拉斯**</span> **<u>展开式</u>**
 
 <ul>
 
 - $A$​为m阶矩阵，$B$​为n阶矩阵
 
-#### **1)**<span style="background-color:#ffff26;">**主**</span>**对角线**
+##### <span style="color: orange;">**主**</span>
 
 <ul>
 
@@ -120,7 +124,7 @@
 
 </ul>
 
-#### **2)**<span style="color:#3da8f5;">**副**</span>**对角线**
+##### <span style="color:#3da8f5;">副</span>**..**
 
 <ul>
 
@@ -131,14 +135,14 @@
 
 </ul>
 
-#### **C.**<span style="color:#75c940;">**范德蒙德**</span>** 行列式**
+#### **范德蒙德**
 
 <ul>
 
 - 形如
     - ![](https://api2.mubu.com/v3/document_image/5e5dc993-49e5-480e-bca8-69042f3cf6c1-15201174.jpg)
     - 元素升幂 排列
-- 值= 一次幂 行向量中 相邻元素作差 的<span style="background-color:#ffff26;">累乘</span>
+- 值= 一次幂 行向量中 相邻元素作差 的<span style="color: orange;">累乘</span>
     - ![](https://api2.mubu.com/v3/document_image/25aae829-4bba-46a7-9658-10a9698439be-15201174.jpg)
 
 </ul>
@@ -147,7 +151,7 @@
 
 </ul>
 
-## 行列式的 *<u>计算</u>*
+## $|A|$** *<u>计算</u>*
 
 <ul>
 
@@ -157,31 +161,36 @@
     - 行列式表示的函数和方程
 2.  抽象型
     - 用性质
-    - 用公式IABI=IAIIBI
+    - 用公式|AB|=|A||B|
 
 </ul>
 
-## 余子式与代数余子式的 *<u>计算</u>*
+## **余子式** 代数 **..** *<u>计算</u>*
 
+- $|A|$
+- $A$
+- $\lambda$
 <ul>
 
 </ul>
 
 </ul>
 
-# **02** <span style="color:#3da8f5;">**矩阵**</span>
+---
+---
+# <span style="font-size: 20px;"> <b><span style="color: lightgray;">02</span> <span style="color:#3da8f5;">矩阵</span></b>
 
 <ul>
 
-## 矩阵的<span style="background-color:#ffff26;">定义</span>及其<u>基本</u><span style="color:#3da8f5;"><u>运算</u></span>
+## 定义 </u><span style="color:#3da8f5;"><u>运算</u></span>
 
 <ul>
 
-### **(1) <span style="background-color:#ffff26;">定义</span>**
+###  <span style="color: orange;">定义</span>
 
 <ul>
 
-#### **A.矩阵**
+#### 矩阵
 
 <ul>
 
@@ -196,12 +205,12 @@
 
 </ul>
 
-#### **B.矩阵的<span style="color:#75c940;">秩</span>$r(A)$**
+#### ..<span style="color:#75c940;">秩</span>$r(A)$
 
 <ul>
 
 1.  **1)定义**
-    - a.$A_{m×n}$​​​​​​​ 的 <u>最高阶</u>**非零**<span style="color:#3da8f5;">子式</span> 的<span style="background-color:#ffff26;">阶数</span><span style="background-color:#ffff26;"> </span>=矩阵$A$​ 的秩
+    - a.$A_{m×n}$​​​​​​​ 的 <u>最高阶</u>**非零**<span style="color:#3da8f5;">子式</span> 的<span style="color: orange;">阶数</span><span style="color: orange;"> </span>=矩阵$A$​ 的秩
         - 记为$r(A)$​​​​
         - <u>最高阶</u>**非零**<span style="color:#3da8f5;">子式</span>
             - a.理解
@@ -212,7 +221,7 @@
                 - 将矩阵 化简为 最简 阶梯型
     - b.存在k阶子式 ≠零，任意k+1阶子式=0 → $r(A)=k$​​​​​​
         - 且$r(A_{n×n})=n$​​​​​​​​​​​​ ←→|A|≠0 ←→ $A$​可逆
-    - c.本质是 组成该矩阵的<span style="background-color:#ffff26;">线性</span><span style="color:#75c940;">无关</span>的向量的个数
+    - c.本质是 组成该矩阵的<span style="color: orange;">线性</span><span style="color:#75c940;">无关</span>的向量的个数
 2.  **2)性质**
     - a.初等变换 不改变 $A$​ 的 <span style="color:#75c940;">r</span>
         - $A$​是m×n矩阵，$P,Q$​​​ 分别为m阶、n阶可逆矩阵
@@ -230,11 +239,11 @@
 
 </ul>
 
-### **(2) <u>基本</u><span style="color:#3da8f5;"><u>运算</u></span>**
+###  <span style="color:#3da8f5;">运算</span>
 
 <ul>
 
-#### **O.basic**
+#### **basic**
 
 <ul>
 
@@ -250,13 +259,13 @@
 
 </ul>
 
-#### **A. 数乘 | 矩阵乘法 | **$A^T$** **
+####  <span style="color: darkgray;">数乘</span> <span style="color: lightgray;">|</span> 矩阵乘法 <span style="color: lightgray;">|</span> $A^T$** 
 
 <ul>
 
 1.  <span style="color:#3da8f5;">数</span><span style="color:#75c940;">乘</span>矩阵
     - $A$​的每个元素 都乘以k
-    - △数乘 和 加法 统称为矩阵的 <span style="background-color:#ffff26;">线性</span>运算
+    - △数乘 和 加法 统称为矩阵的 <span style="color: orange;">线性</span>运算
         - 数乘 满足 数的 分配、结合律
             - 分配
                 ![](https://api2.mubu.com/v3/document_image/77bebe0a-0fdf-4e33-8b89-cd0406b78fd8-15201174.jpg)
@@ -274,9 +283,9 @@
         - 分配
             ![](https://api2.mubu.com/v3/document_image/327dc63c-60d9-41cc-b2b4-bc34f16c2b81-15201174.jpg)
         - 两 矩阵 一般不满足 交换律，因为左右乘 值 与 含义不同
-3.  转置矩阵**$A^T$**
+3.  转置矩阵$A^T$**
     - $A_{m×n}$​​​​​​​ 转置为 $A_{n×m}$​​​​​​​ //行列互换
-    - <span style="background-color:#ffff26;">规律</span>
+    - <span style="color: orange;">规律</span>
         - $A$​ 本身
             - $(A^T)^T=A$​​​​​​​​​
             - $(kA)^T=kA^T$​​​​​​​​​​​
@@ -289,22 +298,22 @@
 
 </ul>
 
-#### **B.△<u>向量</u>的 <span style="background-color:#ffff26;">内积</span>与<span style="color:#75c940;">正交</span> | <span style="color:#3da8f5;">施密特</span><span style="color:#75c940;">正交化</span>**
+#### △ <u>向量</u>' <span style="color: orange;">内积</span>与<span style="color:#75c940;">正交</span> <span style="color: lightgray;">|</span> <span style="color:#3da8f5;">施密特</span><span style="color:#75c940;">正交化</span>
 
 <ul>
 
-1.  1)向量的<span style="background-color:#ffff26;">内积</span>与<span style="color:#75c940;">正交</span>
+1.  1)向量的<span style="color: orange;">内积</span>与<span style="color:#75c940;">正交</span>
     - a.内积
     - b.正交
 2.  2)<span style="color:#3da8f5;">施密特</span><span style="color:#75c940;">正交化</span>
 
 </ul>
 
-#### **C.矩阵的<span style="background-color:#ffff26;">幂 </span>| 方阵乘积 的<u>行列式</u>**
+#### 矩阵'<span style="color: orange;">幂 </span><span style="color: lightgray;">|</span> 方阵乘积 '<u>行列式</u>
 
 <ul>
 
-1.  矩阵的<span style="background-color:#ffff26;">幂</span>
+1.  矩阵的<span style="color: orange;">幂</span>
     - $A^m$​​​ (m个$A$​ 相乘)
     - 规律(不可交换)
         - $(AB)^m$​​​​​​ =$(AB)(AB)…(AB)$​​​​​​​​​​​​​ ≠$A$​ $B$​ 的分别幂//不可交换
@@ -325,7 +334,7 @@
 
 <ul>
 
-#### **1)<span style="background-color:#ffff26;">basic</span>**
+#### <span style="color: gray;">basic</span>
 
 <ul>
 
@@ -336,7 +345,7 @@
 
 </ul>
 
-#### **2)<span style="background-color:#ffff26;">对称</span> | <span style="color:#75c940;">正交</span>**
+#### <span style="color: orange;">对称</span> <span style="color: lightgray;">|</span> <span style="color:#75c940;">正交</span>
 
 <ul>
 
@@ -352,7 +361,7 @@
 
 </ul>
 
-#### **3)<span style="background-color:#ffff26;">分块</span>矩阵**
+####  <span style="color: Gold;">分块</span>..
 
 <ul>
 
@@ -373,15 +382,15 @@
 
 </ul>
 
-## **1 矩阵的<span style="color:#75c940;">逆</span>$A^{-1}$​​ |  <span style="color:#3da8f5;">伴随</span>矩阵$A^{*}$​​​**
+## ..'<span style="color:#75c940;">逆</span>$A^{-1}$​​ |  <span style="color:#3da8f5;">伴随</span>.. $A^{*}$​​
 
 <ul>
 
-### **(1)矩阵的<span style="color:#75c940;">逆</span>$A^{-1}$​​​​​​**
+### ..<span style="color:#75c940;">逆</span>$A^{-1}$​​​​​
 
 <ul>
 
-1.  A.<span style="background-color:#ffff26;">定义</span>
+1.  A.<span style="color: orange;">定义</span>
     - 1)<u>基本</u>定义
         - $A,B$​​​是n阶方阵，E是n阶单位矩阵
         - <span style="color:#3da8f5;">$AB=BA=E$</span>​​​​​​​
@@ -391,12 +400,12 @@
                 - 逆矩阵是唯一的
                     - 记为
                         - $A^{-1}$​​​​​​
-    - 2)$A$​可逆的<span style="background-color:#ffff26;">充要</span><span style="color:#3da8f5;">条件</span>
+    - 2)$A$​可逆的<span style="color: orange;">充要</span><span style="color:#3da8f5;">条件</span>
         - <span style="color:#3da8f5;">$|A|≠0$</span>​​​​​
             - 此时 $A$​可逆 ，且
             - $A^{-1}$​​​​​​=
                 - ![](https://api2.mubu.com/v3/document_image/d776502d-a91b-48a9-82b8-7f293090acdd-15201174.jpg)
-2.  B.<span style="background-color:#ffff26;">性质</span>与<span style="color:#3da8f5;">公式</span>
+2.  B.<span style="color: orange;">性质</span>与<span style="color:#3da8f5;">公式</span>
     - 设 $A,B$​​​是同阶可逆矩阵
         - 1)单$A$​
             - ![](https://api2.mubu.com/v3/document_image/2a56624d-249b-4cd3-8e6e-75b12614eae5-15201174.jpg)
@@ -414,16 +423,16 @@
     - 2)分解为 若干个可逆矩阵 的<span style="color:#75c940;">积</span>
         - 令$A=BC$​​​​
         - ![](https://api2.mubu.com/v3/document_image/8d0350cc-5f9b-418c-a1b9-1b1a22eb858f-15201174.jpg)
-    - 3)<span style="background-color:#ffff26;">分块</span>矩阵的逆
+    - 3)<span style="color: orange;">分块</span>矩阵的逆
         - ![](https://api2.mubu.com/v3/document_image/f1328def-c616-4fff-92da-129b12de2b2a-15201174.jpg)
 
 </ul>
 
-### (2)<span style="color:#3da8f5;">伴随</span>矩阵$A^*$​​​
+### <span style="color:#3da8f5;">伴随</span>..$A^*$​​​
 
 <ul>
 
-1.  A.<span style="background-color:#ffff26;">定义</span>
+1.  A.<span style="color: orange;">定义</span>
     - 将$n^2$​​​个元素的代数余子式 按次序排列成矩阵
         - ![](https://api2.mubu.com/v3/document_image/a89f8f76-2f55-4084-861c-55e2d765c85a-15201174.jpg)
     - 称为$A$​的伴随矩阵
@@ -433,7 +442,7 @@
             - **代数余子式**：取行列式的值，符号由当前行标和列标的值决定（-1的i+j次幂）。
             - **位置关系**为转置
     - 有 $AA^*=A^*A=|A|E$​​​​​​​​​​​​​​
-2.  B.*<span style="background-color:#ffff26;">性质</span>与<span style="color:#3da8f5;">公式</span> //待补充
+2.  B.*<span style="color: orange;">性质</span>与<span style="color:#3da8f5;">公式</span> //待补充
 3.  C.用伴随矩阵求逆矩阵
     - ![](https://api2.mubu.com/v3/document_image/6f1a8835-2b82-40fe-9b7d-0963bb7c0226-15201174.jpg)
 
@@ -441,17 +450,17 @@
 
 </ul>
 
-## <span style="background-color:#ffff26;">初等</span><span style="color:#75c940;">变换</span>与<span style="background-color:#ffff26;">初等</span><span style="color:#3da8f5;">矩阵</span>
+## <span style="color: orange;">初等</span><span style="color:#75c940;">变换</span> <span style="color: orange;">..</span><span style="color:#3da8f5;">矩阵</span>
 
 <ul>
 
-1.  (1)<span style="background-color:#ffff26;">初等</span><span style="color:#75c940;">变换</span>
+1.  (1)<span style="color: orange;">初等</span><span style="color:#75c940;">变换</span>
     - 倍乘
     - 互换
     - 倍加
-2.  (2)<span style="background-color:#ffff26;">初等</span><span style="color:#3da8f5;">矩阵</span>
+2.  (2)<span style="color: orange;">初等</span><span style="color:#3da8f5;">矩阵</span>
     - a.定义
-        - i.单位矩阵<span style="color:#3da8f5;">$E$</span>​经过<span style="background-color:#ffff26;">一次</span> 初等变换 得到的矩阵
+        - i.单位矩阵<span style="color:#3da8f5;">$E$</span>​经过<span style="color: orange;">一次</span> 初等变换 得到的矩阵
         - ii.运算
             - 倍乘~
                 - ![](https://api2.mubu.com/v3/document_image/8609dd18-1e31-4760-a0c3-9f631605b94d-15201174.jpg)
@@ -465,7 +474,7 @@
 
 </ul>
 
-## <span style="color:#75c940;">等价</span><span style="color:#3da8f5;">矩阵</span> <span style="color:#3da8f5;">矩阵</span>的<span style="color:#75c940;">等价</span><u>标准形</u> | <span style="color:#3da8f5;">矩阵</span><span style="background-color:#ffff26;">方程</span>
+## <span style="color:#75c940;">等价</span><span style="color:#3da8f5;">矩阵</span> <span style="color:#3da8f5;">..</span>'<span style="color:#75c940;">等价</span><u>标准形</u> <span style="color: lightgray;">|</span> <span style="color:#3da8f5;">矩阵</span><span style="color: orange;">方程</span>
 
 <ul>
 
@@ -482,7 +491,7 @@
             - r = r(A)
                 - 即 若r(A)=r则存在可逆矩阵P,Q，使得
                     - ![](https://api2.mubu.com/v3/document_image/9f48d432-636a-4597-b579-6fc2bbd9371d-15201174.jpg)
-3.  C.<span style="color:#3da8f5;">**矩阵**</span><span style="background-color:#ffff26;">**方程**</span>
+3.  C.<span style="color:#3da8f5;">**矩阵**</span><span style="color: orange;">**方程**</span>
     - $AX=B$​​​​
     - $XA=B$​​​​
     - $AXB=C$​​​​​
@@ -491,19 +500,21 @@
 
 </ul>
 
-# **03** <span style="background-color:#ffff26;">**向量**</span>
+---
+---
+# <span style="font-size: 20px;"> <b><span style="color: lightgray;">03</span> <span style="color: orange;">**向量**</span></b>
 
 <ul>
 
-## **0 <span style="background-color:#ffff26;">向量</span> | <span style="background-color:#ffff26;">向量</span><span style="color:#3da8f5;">组</span>的<u>线性</u>相关性**
+## **<span style="color: orange;">向量</span> <span style="color: gray;">|</span> <span style="color: orange;">向量</span><span style="color:#3da8f5;">组</span>'<u>线性</u>相关性**
 
 <ul>
 
-### **(1)<u>概念</u>**
+### 概念
 
 <ul>
 
-#### **A.向量**
+#### 向量
 
 <ul>
 
@@ -519,7 +530,7 @@
 
 </ul>
 
-#### **B.<span style="background-color:#ffff26;">线性</span><span style="color:#75c940;">表出</span> 与 <span style="background-color:#ffff26;">线性</span><span style="color:#3da8f5;">相关</span>**
+#### <span style="color: orange;">线性</span><span style="color:#75c940;">表出</span>   <span style="color: orange;">..</span><span style="color:#3da8f5;">相关</span>
 
 <ul>
 
@@ -528,22 +539,22 @@
         - m个n维向量$α_1,…,α_m$​​​​​​​​​，m个数$k_1,…,k_m$​​​​​​​​​
         - 形如
             - ![](https://api2.mubu.com/v3/document_image/455dbfb1-10bd-4839-9aff-18278c14cafb-15201174.jpg)
-        - 称 其为 向量组 的 <span style="background-color:#ffff26;">线性</span>组合
-2.  1)<span style="background-color:#ffff26;">线性</span><span style="color:#75c940;">表出</span>
+        - 称 其为 向量组 的 <span style="color: orange;">线性</span>组合
+2.  1)<span style="color: orange;">线性</span><span style="color:#75c940;">表出</span>
     - 一个向量+一组向量组
         - 向量<span style="color:#3da8f5;">$β$</span>​ 能 <span style="color:#75c940;">表示成 </span>n维向量$α_1,…,α_m$​​​​​​​​​ 的 <span style="color:#3da8f5;">线性组合</span>
         - 形如
             - ![](https://api2.mubu.com/v3/document_image/a041036f-d874-4e4a-a757-b89d4793d77b-15201174.jpg)
-        - 称 向量<span style="color:#3da8f5;">$β$</span>​ 能 被<span style="color:#75c940;"> </span>n维向量$α_1,…,α_m$​​​​​​​​​ <span style="background-color:#ffff26;">线性</span><span style="color:#75c940;">表出</span>
-3.  2)<span style="background-color:#ffff26;">线性</span><span style="color:#3da8f5;">相关</span>
-    - 针对 <span style="color:#3da8f5;">一组</span>向量组而言 //拆一个 就是<span style="background-color:#ffff26;">线性</span><span style="color:#75c940;">表出</span>
+        - 称 向量<span style="color:#3da8f5;">$β$</span>​ 能 被<span style="color:#75c940;"> </span>n维向量$α_1,…,α_m$​​​​​​​​​ <span style="color: orange;">线性</span><span style="color:#75c940;">表出</span>
+3.  2)<span style="color: orange;">线性</span><span style="color:#3da8f5;">相关</span>
+    - 针对 <span style="color:#3da8f5;">一组</span>向量组而言 //拆一个 就是<span style="color: orange;">线性</span><span style="color:#75c940;">表出</span>
         - a.相关
             - m个n维向量$α_1,…,α_m$​​​​​​​​​ , 若<span style="color:#3da8f5;">存在</span>一组不全为零的数$k_1,…,k_m$​​​​​​​​​
             - 使得 线性组合为0
                 - 即
                     ![](https://api2.mubu.com/v3/document_image/d5664ece-3486-4bd6-b046-08e47d1d4472-15201174.jpg)
             - 称 向量组$α_1,…,α_m$​​​​​​​​​ 线性相关
-                - 含 0向量 or 成比例的 向量组必 <span style="background-color:#ffff26;">线性</span><span style="color:#3da8f5;">相关</span>
+                - 含 0向量 or 成比例的 向量组必 <span style="color: orange;">线性</span><span style="color:#3da8f5;">相关</span>
         - b.无关
             - m个n维向量$α_1,…,α_m$​​​​​​​​​ , <span style="color:#75c940;">不</span><span style="color:#3da8f5;">存在</span>一组不全为零的数$k_1,…,k_m$​​​​​​​​​
                 - 使得 线性组合为0
@@ -556,39 +567,39 @@
 
 </ul>
 
-### **(2)<span style="color:#75c940;">判别</span> <span style="background-color:#ffff26;">线性</span><span style="color:#3da8f5;">相关</span>**
+### <span style="color:#75c940;">判别</span> <span style="color: orange;">线性</span><span style="color:#3da8f5;">相关</span>
 
 <ul>
 
-#### **A.单$α$​**
+#### 单$α$
 
 <ul>
 
 1.  向量组$α_1,…,α_m$​​​​​​​​​
-    - 1)<span style="background-color:#ffff26;">**线性**</span><span style="color:#3da8f5;">**相关**</span> 充要条件
-        - ①向量组中 至少有一个向量 可由 <u>其余的</u> **n—1** 个向量 <span style="background-color:#ffff26;">线性</span><span style="color:#75c940;">表出</span>
+    - 1)<span style="color: orange;">**线性**</span><span style="color:#3da8f5;">**相关**</span> 充要条件
+        - ①向量组中 至少有一个向量 可由 <u>其余的</u> **n—1** 个向量 <span style="color: orange;">线性</span><span style="color:#75c940;">表出</span>
         - ②齐次线性方程组<span style="color:#3da8f5;">$Ax=0$</span><span style="color:#3da8f5;"> </span>，有 <span style="color:#75c940;">非</span><span style="color:#797ec9;">零解</span> 。其中 $A=[α_1,…,α_m]$​​​​​​​​​​​​​
             - 同理，线性无关 的充要 即为 only<span style="color:#797ec9;">零解</span>
             - //针对m个n维向量 $α_1,…,α_m$​​​​​​​​​
                 - 其中
                     - ![](https://api2.mubu.com/v3/document_image/b6f64b4c-7245-4093-8e3c-08ae7ca1a6ac-15201174.jpg)
-        - ③<u>部分</u>向量 <span style="background-color:#ffff26;">**线性**</span><span style="color:#3da8f5;">**相关**</span> ，整个向量组 <span style="background-color:#ffff26;">**线性**</span><span style="color:#3da8f5;">**相关**</span>
+        - ③<u>部分</u>向量 <span style="color: orange;">**线性**</span><span style="color:#3da8f5;">**相关**</span> ，整个向量组 <span style="color: orange;">**线性**</span><span style="color:#3da8f5;">**相关**</span>
 
 </ul>
 
-#### **B.$α$与$β$**
+#### $α$与$β$
 
 <ul>
 
-1.  1)<span style="background-color:#ffff26;">线性</span><span style="color:#75c940;">表出</span>
-    - a. $β$​可由$α_1,…,α_s$​​​​​​​​​ <span style="background-color:#ffff26;">线性</span><span style="color:#75c940;">表出</span> 的 <span style="background-color:#ffff26;">充要</span>条件
+1.  1)<span style="color: orange;">线性</span><span style="color:#75c940;">表出</span>
+    - a. $β$​可由$α_1,…,α_s$​​​​​​​​​ <span style="color: orange;">线性</span><span style="color:#75c940;">表出</span> 的 <span style="color: orange;">充要</span>条件
         - 非齐次方程组 $α_1β_1+…+α_sβ_s=β$​​​​​​​​​​​​​​​​​ 有解
         - $r[α_1,…,α_s]$​​​​​​​​​​​​=$r[α_1,…,α_s,β]$​​​​​​​​​​​​​​
     - b.向量组$β_1,…,β_t$​​​​​​​​​ 可由$α_1,…,α_s$​​​​​​​​​ 线性表示
-        - ①t≤s， $β_1,…,β_t$​​​​​​​​​ <span style="background-color:#ffff26;">线性</span><span style="color:#75c940;">无</span><span style="color:#3da8f5;">关</span>
-        - ②t>s，$β_1,…,β_t$​​​​​​​​​ <span style="background-color:#ffff26;">线性</span><span style="color:#3da8f5;">相关</span>
-    - c.$α_1,…,α_s$​​​​​​​​​ 线性<span style="color:#75c940;">无</span><span style="color:#3da8f5;">关 </span>，$β,α_1,…,α_s$​​​​​​​​​​​ <span style="background-color:#ffff26;">线性</span><span style="color:#3da8f5;">相关</span>
-        - $β$​ 可由 $α_1,…,α_s$​​​​​​​​​，<span style="background-color:#ffff26;">线性</span><span style="color:#75c940;">表出</span>，且 表示法唯一
+        - ①t≤s， $β_1,…,β_t$​​​​​​​​​ <span style="color: orange;">线性</span><span style="color:#75c940;">无</span><span style="color:#3da8f5;">关</span>
+        - ②t>s，$β_1,…,β_t$​​​​​​​​​ <span style="color: orange;">线性</span><span style="color:#3da8f5;">相关</span>
+    - c.$α_1,…,α_s$​​​​​​​​​ 线性<span style="color:#75c940;">无</span><span style="color:#3da8f5;">关 </span>，$β,α_1,…,α_s$​​​​​​​​​​​ <span style="color: orange;">线性</span><span style="color:#3da8f5;">相关</span>
+        - $β$​ 可由 $α_1,…,α_s$​​​​​​​​​，<span style="color: orange;">线性</span><span style="color:#75c940;">表出</span>，且 表示法唯一
 
 </ul>
 
@@ -596,33 +607,33 @@
 
 </ul>
 
-## **1 <span style="color:#797ec9;">极大</span><span style="background-color:#ffff26;">线性</span><span style="color:#75c940;">无</span><span style="color:#3da8f5;">关</span>组 | <u>等价</u>向量组 | 向量组的<span style="color:#75c940;">秩</span>**
+## **<span style="color: gray;">1</span> <span style="color:#797ec9;">极大</span><span style="color: orange;">线性</span><span style="color:#75c940;">无</span><span style="color:#3da8f5;">关</span>组 <span style="color: lightgray;">|</span> <u>等价</u>向量组 <span style="color: lightgray;">|</span> 向量组'<span style="color:#75c940;">秩</span>**
 
 <ul>
 
-### **(1)<span style="color:#797ec9;">极大</span><span style="background-color:#ffff26;">线性</span><span style="color:#75c940;">无</span><span style="color:#3da8f5;">关</span>组 - "<u>代表</u>"**
+### <span style="color:#797ec9;">极大</span><span style="color: orange;">线性</span><span style="color:#75c940;">无</span><span style="color:#3da8f5;">关</span>组 - "<u>代表</u>"
 
 <ul>
 
-#### **A.<span style="background-color:#ffff26;">定义</span>**
+#### <span style="color: orange;">定义</span>
 
 <ul>
 
 1.  1)数学定义
     - ①向量组$α_1,…,α_s$​​​​​​​​​ 中存在 <span style="color:#3da8f5;">部分组</span>$α_{i_1},…,α_{i_s}$​​​​​​​​​​​​​​​​​
-    - ② 向量组中的 任一向量$α_i$​​​均可由此 部分组 <span style="background-color:#ffff26;">线性</span><span style="color:#75c940;">表出</span>
+    - ② 向量组中的 任一向量$α_i$​​​均可由此 部分组 <span style="color: orange;">线性</span><span style="color:#75c940;">表出</span>
 2.  2)理解：
-    - a.其 能够代表向量组中 所有成员 的一组向量(彼此<span style="background-color:#ffff26;"> 线性</span><span style="color:#75c940;">无</span><span style="color:#3da8f5;">关</span>)
-        - 即 向量组 中的 任一向量都能够由其 <span style="background-color:#ffff26;">线性</span><span style="color:#75c940;">表出</span>
+    - a.其 能够代表向量组中 所有成员 的一组向量(彼此<span style="color: orange;"> 线性</span><span style="color:#75c940;">无</span><span style="color:#3da8f5;">关</span>)
+        - 即 向量组 中的 任一向量都能够由其 <span style="color: orange;">线性</span><span style="color:#75c940;">表出</span>
         - 线性相关 的 有一组即可
     - b.极大线性无关组 一般不唯一 (线性相关 向量 的选取 不唯一)
     - c.特殊：
         - 只由 一个<span style="color:#3da8f5;">0</span>向量 组成的 向量组 不存在~
-        - 一个 <span style="background-color:#ffff26;">线性</span><span style="color:#75c940;">无</span><span style="color:#3da8f5;">关</span><u>向量组</u> 的~ 就是其本身
+        - 一个 <span style="color: orange;">线性</span><span style="color:#75c940;">无</span><span style="color:#3da8f5;">关</span><u>向量组</u> 的~ 就是其本身
 
 </ul>
 
-#### B.求法
+#### 求法
 
 <ul>
 
@@ -630,11 +641,11 @@
 
 </ul>
 
-### **(2)<span style="color:#3da8f5;">等价</span>向量组**
+### <span style="color:#3da8f5;">等价</span>向量组
 
 <ul>
 
-#### **A.<span style="background-color:#ffff26;">定义</span>**
+#### <span style="color: orange;">定义</span>**
 
 <ul>
 
@@ -642,9 +653,9 @@
     - 设定：
         - 两个向量组(Ⅰ)$α_1,…,α_s$​​​​​​​​​ ，(Ⅱ)$β_1,…,β_t$​​​​​​​​​
     - 若
-        - 1)$α$​中 每个向量$α_i$​​​ 均可由$β$​ 中的向量 <span style="background-color:#ffff26;">线性</span><span style="color:#75c940;">表出</span>
-            - 称 向量组$α$​可由向量组$β$​ <span style="background-color:#ffff26;">线性</span><span style="color:#75c940;">表出</span>
-        - 2)向量组(Ⅰ)与 向量组(Ⅱ)可相互<span style="background-color:#ffff26;">线性</span><span style="color:#75c940;">表出</span>
+        - 1)$α$​中 每个向量$α_i$​​​ 均可由$β$​ 中的向量 <span style="color: orange;">线性</span><span style="color:#75c940;">表出</span>
+            - 称 向量组$α$​可由向量组$β$​ <span style="color: orange;">线性</span><span style="color:#75c940;">表出</span>
+        - 2)向量组(Ⅰ)与 向量组(Ⅱ)可相互<span style="color: orange;">线性</span><span style="color:#75c940;">表出</span>
             - 称 向量组(Ⅰ)与 向量组(Ⅱ) 是 <span style="color:#3da8f5;">等价</span> <u>向量组</u>
                 - 记作
                     - ![](https://api2.mubu.com/v3/document_image/0cb57248-f192-471e-9393-8d2e7fa8f31f-15201174.jpg)
@@ -655,7 +666,7 @@
         - ![](https://api2.mubu.com/v3/document_image/a83bec86-74ce-4dc8-a5ea-1771f9b5d9fd-15201174.jpg)
     - 传递
         - ![](https://api2.mubu.com/v3/document_image/bf94c3b8-b398-4887-8393-b7c687de8ee9-15201174.jpg)
-3.  3)向量组 与 其 <span style="color:#797ec9;">**极大**</span><span style="background-color:#ffff26;">**线性**</span><span style="color:#75c940;">**无**</span><span style="color:#3da8f5;">**关**</span>**组** 是 <span style="color:#3da8f5;">等价</span>向量组
+3.  3)向量组 与 其 <span style="color:#797ec9;">**极大**</span><span style="color: orange;">**线性**</span><span style="color:#75c940;">**无**</span><span style="color:#3da8f5;">**关**</span>**组** 是 <span style="color:#3da8f5;">等价</span>向量组
 
 </ul>
 
@@ -673,22 +684,22 @@
 
 </ul>
 
-### **(3)向量组的<span style="color:#75c940;">秩</span>**
+### **向量组'<span style="color:#75c940;">秩</span>**
 
 <ul>
 
-#### **A.<span style="background-color:#ffff26;">定义</span>**
+#### <span style="color: orange;">定义</span>**
 
 <ul>
 
-1.  向量组 的<span style="color:#797ec9;">**极大**</span><span style="background-color:#ffff26;">**线性**</span><span style="color:#75c940;">**无**</span><span style="color:#3da8f5;">**关**</span>**组**中 所含向量的个数 <span style="color:#75c940;">r</span>
+1.  向量组 的<span style="color:#797ec9;">**极大**</span><span style="color: orange;">**线性**</span><span style="color:#75c940;">**无**</span><span style="color:#3da8f5;">**关**</span>**组**中 所含向量的个数 <span style="color:#75c940;">r</span>
     - 记作 $rank(α_1,…,α_s)$​​​​​​​​​​​​​​​​​​​​​​​​​ = r 或 $r(α_1,…,α_s)$​​​​​​​​​​​​ = r
 2.  <span style="color:#3da8f5;">等价</span>向量组 具有相等的 r
     - r 相等 不一定 是等价向量组
 
 </ul>
 
-#### B.重要定理和公式
+#### 重要定理和公式
 
 <ul>
 
@@ -697,9 +708,9 @@
 2.  2)若 $A$​  初等行变换 → $B$​
     - $A$​ 与$B$​
         - <u>行</u>向量组 是 <span style="color:#3da8f5;">等价</span>向量组
-        - 部分<u>列</u>向量组 具有 <span style="color:#75c940;">相同</span>的 <span style="background-color:#ffff26;">线性</span><span style="color:#3da8f5;">相关性</span>
+        - 部分<u>列</u>向量组 具有 <span style="color:#75c940;">相同</span>的 <span style="color: orange;">线性</span><span style="color:#3da8f5;">相关性</span>
 3.  3)$r(α_1,…,α_s)$​​​​​​​​​​​​≤ $r(β_1,…,β_t)$​​​​​​​​​​​​
-    - 每个向量$α_i$​​​ 均可由$β$​ 中的向量 <span style="background-color:#ffff26;">线性</span><span style="color:#75c940;">表出</span>
+    - 每个向量$α_i$​​​ 均可由$β$​ 中的向量 <span style="color: orange;">线性</span><span style="color:#75c940;">表出</span>
 
 </ul>
 
@@ -707,17 +718,17 @@
 
 </ul>
 
-## **2 <span style="background-color:#ffff26;">向量</span><span style="color:#3da8f5;">空间</span>（仅数学一要求）**
+## **2 <span style="color: orange;">向量</span><span style="color:#3da8f5;">空间</span>**
 
 <ul>
 
-### **(1)<span style="background-color:#ffff26;">概念</span>**
+### <span style="color: orange;">概念</span>
 
 <ul>
 
 1.  n维向量空间$R^n$​​​ 中
-    - 有 <span style="background-color:#ffff26;">线性</span><span style="color:#75c940;">无关 </span>的有序向量组 $ξ_1,…,ξ_n$​​​​​​​​​
-    - 任意 <span style="color:#3da8f5;">$α\in R^n$</span>​​​​​​​​ 均可由 $ξ_1,…,ξ_n$​​​​​​​​​ <span style="background-color:#ffff26;">线性</span><span style="color:#75c940;">表出</span>
+    - 有 <span style="color: orange;">线性</span><span style="color:#75c940;">无关 </span>的有序向量组 $ξ_1,…,ξ_n$​​​​​​​​​
+    - 任意 <span style="color:#3da8f5;">$α\in R^n$</span>​​​​​​​​ 均可由 $ξ_1,…,ξ_n$​​​​​​​​​ <span style="color: orange;">线性</span><span style="color:#75c940;">表出</span>
         - 记为$α=a_1ξ_1,…,a_nξ_n$​​​​​​​​​​​​​​​​​
         - 称
             - 有序向量$ξ_1,…,ξ_n$​​​​​​​​​ 为$R^n$​​​的<u>一个 </u>**基**
@@ -727,16 +738,16 @@
 
 </ul>
 
-### **(2)<span style="background-color:#ffff26;">基</span><span style="color:#75c940;">变换</span>与<span style="color:#3da8f5;">坐标</span><span style="color:#75c940;">变换</span>**
+### <span style="color: orange;">基</span><span style="color:#75c940;">变换</span> <span style="color:#3da8f5;">坐标</span><span style="color:#75c940;">..</span>
 
 <ul>
 
-1.  A.<span style="background-color:#ffff26;">基</span><span style="color:#75c940;">变换</span>
+1.  A.<span style="color: orange;">基</span><span style="color:#75c940;">变换</span>
     - n维向量空间$R^n$​​​ 中
         - 两个基 为$η_1,…,η_n$​​​​​​​​​ , $ξ_1,…,ξ_n$​​​​​​​​​
         - 其 满足 $[η_1,…,η_n]$​​​​​​​​​​​ =$[ξ_1,…,ξ_n]$​​​​​​​​​​​ $C$​
             - ![](https://api2.mubu.com/v3/document_image/849a3657-67f5-4286-8ad4-b6deceb2a258-15201174.jpg)
-        - 称 上式 为 由基$ξ$​ 到基$η$​  的 <span style="background-color:#ffff26;">基</span><span style="color:#75c940;">变换</span>公式
+        - 称 上式 为 由基$ξ$​ 到基$η$​  的 <span style="color: orange;">基</span><span style="color:#75c940;">变换</span>公式
         - 称 矩阵$C$​ 为 **过渡矩阵**，且$C$​ 为可逆矩阵
             - $C$​ 的第 i 列 即 是$η_i$​​​ 在基$ξ$​下的坐标
 2.  B.<span style="color:#3da8f5;">坐标</span><span style="color:#75c940;">变换</span>
@@ -754,19 +765,24 @@
 
 </ul>
 
-# **04** <span style="background-color:#ffff26;">**线性**</span><u>**方程组**</u>
+
+# 
+# 
+---
+---
+# <span style="font-size: 20px;"> <b><span style="color: lightgray;">04</span> <span style="color: orange;">线性</span>**方程组**</b>
 
 <ul>
 
-## **0 概念**
+## <span style="color: gray;">概念
 
 <ul>
 
-### **basic.总述(<span style="background-color:#ffff26;">方程</span>组 与 <span style="color:#3da8f5;">向量</span>组)：**
+### **basic.总述(<span style="color: orange;">方程</span>组 与 <span style="color:#3da8f5;">向量</span>组)：**
 
 <ul>
 
-#### **1)<span style="background-color:#ffff26;">一般</span>的非齐次线性方程组**
+#### <span style="color: orange;">一般</span>的**非**齐次线性方程组
 
 <ul>
 
@@ -780,18 +796,18 @@
 
 </ul>
 
-#### **2)写成 <span style="color:#3da8f5;">向量的</span>形式**
+####  写成 <span style="color:#3da8f5;">**向量**的</span>形式
 
 <ul>
 
-- 方程组中的未知数 <span style="color:#3da8f5;">x</span> 就是向量组 <u>各向量组的</u><span style="background-color:#ffff26;">系数</span>
+- 方程组中的未知数 <span style="color:#3da8f5;">x</span> 就是向量组 <u>各向量组的</u><span style="color: orange;">系数</span>
     - ![](https://api2.mubu.com/v3/document_image/b9968747-5603-4177-b644-81915d054360-15201174.jpg)
         - 其中
             ![](https://api2.mubu.com/v3/document_image/61ea3067-3cd4-4f78-a3b9-ff270aac80b6-15201174.jpg)
 
 </ul>
 
-#### **3)<span style="background-color:#ffff26;">方程</span>组问题 = <span style="color:#3da8f5;">向量</span>组问题**
+####  <span style="color: orange;">方程</span>组问题 = <span style="color:#3da8f5;">向量</span>组..
 
 <ul>
 
@@ -807,16 +823,16 @@
 
 </ul>
 
-### **A.<u><span style="background-color:#ffff26;">具体型</span></u> 线性方程组**
+### <u><span style="color: orange;">具体型</span></u> 线性方程组**
 
 <ul>
 
-#### **1)<span style="background-color:#ffff26;">齐次</span>**
+#### <span style="color: orange;">齐次</span>**
 
 <ul>
 
 1.  a.**定义**
-    - i.**<span style="background-color:#ffff26;">方程</span>组**<u>形式</u>
+    - i.**<span style="color: orange;">方程</span>组**<u>形式</u>
         - ![](https://api2.mubu.com/v3/document_image/b3622ab9-ad73-4173-b965-c5e9d0fed5f1-15201174.jpg)
             - 称为 m个方程组,n个未知量的 齐次线性方程组
     - ii.<span style="color:#75c940;">**向量**</span><u>形式</u>
@@ -827,25 +843,25 @@
         - ![](https://api2.mubu.com/v3/document_image/b28d768c-4706-4673-ba6e-69191557dc1e-15201174.jpg)
             - 其中
                 ![](https://api2.mubu.com/v3/document_image/66a41b78-53b6-4bdc-b57d-a593e2e64bc1-15201174.jpg)
-2.  b.<span style="background-color:#ffff26;">性质</span>
+2.  b.<span style="color: orange;">性质</span>
     - 1)<u>有解</u>的<span style="color:#3da8f5;">条件</span>
         - 秩$r(A)$​​​​ 作为判断条件
             - $r(A) = n$​​​​​​​​ (n为未知量个数)
-                - $α_1,α_2,…,α_n$​​​​​​​​​​​​​ <span style="background-color:#ffff26;">线性</span><span style="color:#75c940;">无关</span>
+                - $α_1,α_2,…,α_n$​​​​​​​​​​​​​ <span style="color: orange;">线性</span><span style="color:#75c940;">无关</span>
                 - 方程组有 <span style="color:#797ec9;">**唯一**</span><span style="color:#797ec9;">  </span><span style="color:#3da8f5;">零解</span>
             - $r(A) =r< n$​​​​​​​​​​  (n为未知量个数)
                 - 方程组有 <span style="color:#75c940;">**非零**</span><span style="color:#3da8f5;">**解**</span>
                     - 有 <span style="color:#3da8f5;">n</span>-<span style="color:#75c940;">r</span> 个 线性无关解
-    - 2)解的<span style="background-color:#ffff26;">性质</span>
+    - 2)解的<span style="color: orange;">性质</span>
         - 条件:$Aξ_1 = 0$​​​​​​​​,:$Aξ_2 = 0$​​​​​​​​
         - 则 $A(k_1ξ_1+k_2ξ_2) = 0$​​​​​​​​​​​​​​​​​​​​
             - $k_1,k_2$​​​​​​​ 是任意常数
-    - 3)<span style="color:#3da8f5;">基础解系</span>和<span style="background-color:#ffff26;">解</span>的<u>结构</u>
-        - i.基础解系 的<span style="background-color:#ffff26;">概念</span>
+    - 3)<span style="color:#3da8f5;">基础解系</span>和<span style="color: orange;">解</span>的<u>结构</u>
+        - i.基础解系 的<span style="color: orange;">概念</span>
             - $ξ_1 ,ξ_2,…,ξ_{n-r}$​​​​​​​​​​​​​​​​​​ **满足**
-                - <span style="background-color:#ffff26;">线性</span><span style="color:#75c940;">无关</span>
+                - <span style="color: orange;">线性</span><span style="color:#75c940;">无关</span>
                 - 是 方程组$Ax=0$​​​​ 的解
-                - 方程组$Ax=0$​​​​ 的任一解，均可由$ξ_1 ,ξ_2,…,ξ_{n-r}$​​​​​​​​​​​​​​​​​​ <span style="background-color:#ffff26;">线性</span><span style="color:#797ec9;">表出</span>
+                - 方程组$Ax=0$​​​​ 的任一解，均可由$ξ_1 ,ξ_2,…,ξ_{n-r}$​​​​​​​​​​​​​​​​​​ <span style="color: orange;">线性</span><span style="color:#797ec9;">表出</span>
             - 称 <span style="color:#3da8f5;">$ξ_1 ,ξ_2,…,ξ_{n-r}$</span>​​​​​​​​​​​​​​​​​​ 为 $Ax=0$​​​​ 的 基础解系
         - ii.<span style="color:#797ec9;">**通解**</span>
             - $ξ_1 ,ξ_2,…,ξ_{n-r}$​​​​​​​​​​​​​​​​​​ 为 $Ax=0$​​​​ 的 基础解系
@@ -858,12 +874,12 @@
 
 </ul>
 
-#### **2)<span style="color:#75c940;">非</span><span style="background-color:#ffff26;">齐次</span>**
+#### <span style="color:#75c940;">非</span><span style="color: orange;">齐次</span>**
 
 <ul>
 
 1.  a.定义
-    - i.**<span style="background-color:#ffff26;">方程</span>组**<u>形式</u>
+    - i.**<span style="color: orange;">方程</span>组**<u>形式</u>
         - ![](https://api2.mubu.com/v3/document_image/7bdfc7fb-6350-4d40-af12-67887584cc0a-15201174.jpg)
             - 称为 m个方程组,n个未知量的 非齐次线性方程组
     - ii.<span style="color:#75c940;">**向量**</span><u>形式</u>
@@ -878,7 +894,7 @@
                     - 简记为
                         - ![](https://api2.mubu.com/v3/document_image/0e4fe790-2aca-4262-b85b-0c506451d2a7-15201174.jpg)
                 - ![](https://api2.mubu.com/v3/document_image/77c6d859-93ff-4419-91bb-ea6d39cdff62-15201174.jpg)
-2.  b.<span style="background-color:#ffff26;">性质</span>
+2.  b.<span style="color: orange;">性质</span>
     - 1)<u>有解</u>的<span style="color:#3da8f5;">条件</span>
         - 秩$r(A)$​​​​ 与$r([A,b])$​​​​​​​​ 作为 判据
             - a.无解
@@ -893,7 +909,7 @@
                     - $α_1,α_2,…,α_n$​​​​​​​​​​​​​ ,$b$​ 线性相关
             - c.无穷多解
                 - $r(A)$​​​​ = $r([A,b])$​​​​​​​​ = r < n
-    - 2)解的<span style="background-color:#ffff26;">性质</span>
+    - 2)解的<span style="color: orange;">性质</span>
         - 设定：
             - $η_1,η_2,η$​​​​​​​​​ 是 非齐次线性方程组$Ax=b$​​​​ 的解
             - $ξ$​ 是 对应 齐次线性方程组 $AX=0$​​​​ 的解
@@ -910,7 +926,7 @@
 
 </ul>
 
-### **B.<u><span style="color:#3da8f5;">抽象型</span></u> 线性方程组**
+### <span style="color: purple;">抽象型</span> 线性方程组**
 
 <ul>
 
@@ -918,27 +934,31 @@
 - 解的结构
 - 基础解系的讨论
 - 系数矩阵列向量与解的关系
-1.  1类型
-    - 两个方程组的公共解
-    - 同解方程组
+
+
 
 </ul>
 
 </ul>
 
+## 1 类型
+  - 两个方程组的公共解
+  - 同解方程组
 </ul>
 
-# **05 特征<span style="color:#3da8f5;">值</span><span style="color:#3da8f5;"> </span><span style="color:#3da8f5;">λ</span>  & <u>特征向量</u><span style="color:#3da8f5;"> </span><span style="color:#797ec9;">$ξ$</span><span style="color:#3da8f5;"> </span>  | <span style="background-color:#ffff26;">相似</span>**
+---
+---
+# <span style="font-size: 20px;"> <b><span style="color: lightgray;">05</span> **特征<span style="color:#3da8f5;">值</span><span style="color:#3da8f5;">λ</span>  & <u>特征向量</u><span style="color:#3da8f5;"> </span><span style="color:#797ec9;">$ξ$</span>  <span style="color: lightgray;">|</span> <span style="color: orange;">相似</span>**</b>
 
 <ul>
 
 - //整章概念都是在 矩阵 基础上
 
-## 0<span style="background-color:#ffff26;"> </span><span style="background-color:#ffff26;">**特征**</span><span style="color:#75c940;">**值**</span> <span style="color:#3da8f5;">**λ**</span>  <span style="background-color:#ffff26;">**特征**</span><span style="color:#3da8f5;">**向量**</span><span style="color:#3da8f5;"> </span><span style="color:#797ec9;">$ξ$</span>​
+## ..<span style="color:#3da8f5;">值</span><span style="color:#3da8f5;">λ</span>  ..<span style="color:#3da8f5;">**向量**</span><span style="color:#3da8f5;"> </span><span style="color:#797ec9;">$ξ$</span>​
 
 <ul>
 
-### **concept**
+### <span style="color: gray;">concept</span>
 
 <ul>
 
@@ -950,13 +970,13 @@
     - $A$​ 为n阶矩阵，λ 是一个数，$ξ$​ 为n维 非零 列向量
     - 使得 $Aξ=$​​​ <span style="color:#3da8f5;">$λ$</span><span style="color:#3da8f5;"> </span><span style="color:#797ec9;"> </span><span style="color:#797ec9;">$ξ$</span>​
 2.  称
-    - <span style="color:#3da8f5;">λ</span> 是 $A$​ 的 <span style="background-color:#ffff26;">特征</span><span style="color:#75c940;">值</span>
-    - <span style="color:#797ec9;">$ξ$</span>​  是$A$​ 对应于 特征值λ 的<span style="background-color:#ffff26;"> 特征</span><span style="color:#3da8f5;">向量</span>
+    - <span style="color:#3da8f5;">λ</span> 是 $A$​ 的 <span style="color: orange;">特征</span><span style="color:#75c940;">值</span>
+    - <span style="color:#797ec9;">$ξ$</span>​  是$A$​ 对应于 特征值λ 的<span style="color: orange;"> 特征</span><span style="color:#3da8f5;">向量</span>
     - // 特征值 和 特征向量均是相对于 矩阵$A$​ 而言的
 
 </ul>
 
-#### **1)** <span style="background-color:#ffff26;">**特征**</span><span style="color:#797ec9;">**方程**</span> **|** <span style="background-color:#ffff26;">**特征**</span>**矩阵**  <span style="background-color:#ffff26;">**特征**</span>**多项式**
+####  <span style="color: orange;">**特征**</span><span style="color:#797ec9;">**方程**</span> <span style="color: gray;">|</span> <span style="color: orange;">**..**</span>**矩阵**  <span style="color: orange;"> **..**</span>**多项式**
 
 <ul>
 
@@ -964,7 +984,7 @@
     - $ξ≠0$​​​
 2.  称
     - ![](https://api2.mubu.com/v3/document_image/c7acb7f6-ef08-49a4-b06e-6c4a708bd5bc-15201174.jpg)
-        - 上式为$A$​的 特征<span style="background-color:#ffff26;">方程</span>
+        - 上式为$A$​的 特征<span style="color: orange;">方程</span>
             - 是未知量λ的n次方程，有n个根(重根按照重数计)
         - $λE-A$​​​​ ← ~矩阵
         - $|λE-A|$​​​​​​  ←  ~多项式
@@ -1007,40 +1027,40 @@
 
 </ul>
 
-### C.求法
+### 求法
 
 <ul>
 
 - 具体型矩阵
 - 抽象型矩阵
-- <span style="color:#797ec9;">$ξ$</span>​  是$A$​ 对应于 特征值λ 的<span style="background-color:#ffff26;"> 特征</span><span style="color:#3da8f5;">向量</span>
-- <span style="color:#797ec9;">$ξ$</span>​  是$A$​ 对应于 特征值λ 的<span style="background-color:#ffff26;"> 特征</span><span style="color:#3da8f5;">向量</span>
+- <span style="color:#797ec9;">$ξ$</span>​  是$A$​ 对应于 特征值λ 的<span style="color: orange;"> 特征</span><span style="color:#3da8f5;">向量</span>
+
 
 </ul>
 
 </ul>
 
-## **1 <span style="background-color:#ffff26;">相似</span>**
+---
+## **1 <span style="color: orange;">相似</span>**
 
 <ul>
 
-### **A.矩阵<span style="background-color:#ffff26;">相似</span>**
+### 矩阵<span style="color: orange;">相似</span>
 
 <ul>
 
-#### **1)<span style="background-color:#ffff26;">定义</span>**
-
+#### <span style="color: gray;">定义</span>
 <ul>
 
 1.  设定
-    - $A$​ , $B$​ 是 n阶方阵 ， $P$​ 是 n阶 <span style="background-color:#ffff26;">可逆矩阵</span>
+    - $A$​ , $B$​ 是 n阶方阵 ， $P$​ 是 n阶 <span style="color: orange;">可逆矩阵</span>
     - <span style="color:#3da8f5;">$P^{-1}AP=B$</span>​​​​​​​​​​
 2.  称A相似于B
     - 记为$A$​~$B$​
 
 </ul>
 
-#### **2)<u>性质</u>**
+#### **性质**
 
 <ul>
 
@@ -1058,11 +1078,11 @@
 
 </ul>
 
-### **B.矩阵的<span style="background-color:#ffff26;">相似</span><span style="color:#75c940;">对角化</span>**
+### 矩阵的<span style="color: orange;">相似</span><span style="color:#75c940;">对角化</span>
 
 <ul>
 
-### **definition**
+#### <span style="color: gray;">definition</span>
 
 <ul>
 
@@ -1070,13 +1090,13 @@
 - <span style="color:#3da8f5;">$P^{-1}AP=Λ$</span>​​​​​​​​​​
     - Λ是对角矩阵
 - 称
-    - $A$​ <span style="color:#75c940;">可</span><span style="background-color:#ffff26;">相似</span><span style="color:#75c940;">对角化</span>
+    - $A$​ <span style="color:#75c940;">可</span><span style="color: orange;">相似</span><span style="color:#75c940;">对角化</span>
         - 记为$A$​~$Λ$​
-    - Λ是$A$​的 <span style="background-color:#ffff26;">相似</span><span style="color:#3da8f5;">标准形</span>
+    - Λ是$A$​的 <span style="color: orange;">相似</span><span style="color:#3da8f5;">标准形</span>
 
 </ul>
 
-### **可相似对角化的<span style="color:#3da8f5;">条件</span>**
+#### **可相似对角化'<span style="color:#3da8f5;">条件</span>**
 
 <ul>
 
@@ -1099,25 +1119,25 @@
     - 对于n阶矩阵$A$​
         - 两个充要
             - 可相似对角化 ← →
-                - n个 <span style="background-color:#ffff26;">线性</span><span style="color:#75c940;">无关</span>的特征向量
-                - <span style="background-color:#ffff26;">对应每个</span><span style="background-color:#ffff26;">$k_i$</span>​​​<span style="background-color:#ffff26;">重特征值 都有</span><span style="background-color:#ffff26;">$k_i$</span>​​​<span style="background-color:#ffff26;"> 个线性无关的 特征向量</span>
+                - n个 <span style="color: orange;">线性</span><span style="color:#75c940;">无关</span>的特征向量
+                - <span style="color: orange;">对应每个</span><span style="color: orange;">$k_i$</span>​​​<span style="color: orange;">重特征值 都有</span><span style="color: orange;">$k_i$</span>​​​<span style="color: orange;"> 个线性无关的 特征向量</span>
         - 两个充分
             - n个 不同特征值
             - $A$​为实对称矩阵
 
 </ul>
 
-### <span style="color:#797ec9;">**步骤**</span>
+#### <span style="color: gray;">步骤</span>
 
 <ul>
 
 </ul>
 
-### **application**
+#### **application**
 
 <ul>
 
-#### **a.<span style="color:#75c940;">实</span><span style="color:#3da8f5;">对称矩阵</span>的相似对角化**
+##### <span style="color:#75c940;">实</span><span style="color:#3da8f5;">对称矩阵</span>' 相似对角化
 
 <ul>
 
@@ -1135,7 +1155,7 @@
 
 </ul>
 
-#### b.反问题
+##### 反问题
 
 <ul>
 
@@ -1153,29 +1173,34 @@
 
 </ul>
 
-# **06 二次型**
+# 
+---
+---
+---
+
+# <span style="font-size: 20px;"> <b><span style="color: lightgray;">06</span> 二次型</b><span style="color: gray;">($f(x)=x^TAx$: 1+2
 
 <ul>
 
-## **0 二次型的<span style="background-color:#ffff26;">定义</span>与矩阵表示**
+## <span style="color: gray;">定义 与 矩阵表示</span><span style="color: lightgray;">(1+3
 
 <ul>
 
-#### **(1)实二次型**
+### 实**二次型**<span style="color: gray;">(上△
 
 <ul>
 
-1.  n元变量$x_1,x_2,…,x_n$​​​​​​​​​​​​​的<span style="color:#3da8f5;"> 二次</span> 齐次多项式
+1.  n元变量$x_1,x_2,…,x_n$​​​​​​​​​​​​​的<b><span style="color:#3da8f5;">二次</span> 齐次</b>多项式
     - ![](https://api2.mubu.com/v3/document_image/ece79ef4-12df-4bab-a250-9b80ac582ead-15201174.jpg)
 2.  考研只研究 $a_{ij}\in R$​​​​​​​​​​​  (i≤j; i,j=1,2,…,n)的情况，称此二次型f 为 **实二次型**
-
+---
 </ul>
 
-#### **(2)完全<u>展开式</u> | <u>和式</u> | <span style="color:#3da8f5;">矩阵</span>**
+### <span style="color: gray;">完全<u>展开式</u> <span style="color: lightgray;">|</span> <u>和式</u> <span style="color: lightgray;">|</span> <span style="color:#3da8f5;">矩阵</span></span>
 
 <ul>
 
-##### **base. 变换:**
+#### <span style="color: gray;">base. 变换:
 
 <ul>
 
@@ -1185,7 +1210,7 @@
 
 </ul>
 
-##### **1)完全展开式**
+#### <span style="color: gray;">完全展开式</span>
 
 <ul>
 
@@ -1193,7 +1218,7 @@
 
 </ul>
 
-##### **2)和式**
+#### <span style="color: gray;">和式</span>
 
 <ul>
 
@@ -1201,20 +1226,20 @@
 
 </ul>
 
-##### **3)<span style="color:#3da8f5;">二次型</span>f(x)的<span style="background-color:#ffff26;">矩阵</span>**
+#### **<span style="color:#3da8f5;">二次型</span>f(x)'<span style="color: orange;">矩阵</span>**<span style="color: lightgray;">(3:表达式 对称 变换
 
 <ul>
 
-1.  a. 二次型$f(x_1,x_2,…,x_n)$​​​​​​​​​​​​​​​​ 的 **矩阵表达式**
+1.  二次型$f(x_1,x_2,…,x_n)$​​​​​​​​​​​​​​​​ 的 **矩阵表达式**
     - ![](https://api2.mubu.com/v3/document_image/57cb18ec-cc02-4678-9c06-5b21194143c2-15201174.jpg)
     - ![](https://api2.mubu.com/v3/document_image/78ee20da-4721-4ce9-bf55-63aef151d025-15201174.jpg)
-2.  b. notice: 矩阵A 必须是一个对称矩阵
+2.  notice: 矩阵A 必须是一个<span style="border: 1px solid black; padding: 5px; display: inline-block;">**对称**</span>矩阵
     - cause: 一个二次型可以有不同的写法，eg.三元二次型
         - 拆分系数可以有不同的形式
             ![](https://api2.mubu.com/v3/document_image/879c46ff-b5ce-41d4-8342-f9b8476c5536-15201174.jpg)
             - 自然 对应的矩阵 也有多种形式
                 ![](https://api2.mubu.com/v3/document_image/690d804e-3f52-40b4-a96d-c600e1ec96f5-15201174.jpg)
-3.  c. <span style="background-color:#ffff26;">**变换**</span>
+3.  <span style="color: orange;">**变换**</span>
     - ![](https://api2.mubu.com/v3/document_image/57763fec-5f93-46f3-afb6-6fa9feb07d0d-15201174.jpg)
         - 对称转换
             - ![](https://api2.mubu.com/v3/document_image/e2629c09-ac34-42d7-945e-62b9a0792ec5-15201174.jpg)
@@ -1228,41 +1253,47 @@
 
 </ul>
 
-## **1 化二次型为<span style="color:#3da8f5;">标准形</span>与规范形**
+---
+---
+## 
+## <span style="color: gray;">1 化为</span> <span style="color:#3da8f5;">标准形</span> 与 **规范形**<span style="color: gray;">(2
 
 <ul>
 
-### **(1)定义与<span style="background-color:#ffff26;">性质</span>**
+### <span style="color: gray;">定义 <span style="color: orange;">性质</span></span><span style="color: gray;">(2*2 +1 n
 
 <ul>
 
-#### **A.<span style="background-color:#ffff26;">线性变换</span>  //换元**
+---
+#### <span style="color: orange;">线性变换</span>  //换元 <span style="color: gray;">($x=Cy$
 
 <ul>
 
-1.  1) 基本设定：
+1.  基本设定：
     - 对于 n元二次型$f(x_1,x_2,…,x_n)$​​​​​​​​​​​​​​​​
         - <span style="color:#75c940;">令</span>
             - ![](https://api2.mubu.com/v3/document_image/12503202-4ef6-475b-9459-1f7b19eb41d5-15201174.jpg)
         - 记
             - ![](https://api2.mubu.com/v3/document_image/480c7ce1-efb4-4611-b47e-1b8ec9d4f94c-15201174.jpg)
         - 可表示为
-            - **$x=Cy$**​​​​
-2.  ( * )<span style="color:#3da8f5;">式</span> 称为 从$y_i,y_2,y_3,…,y_n$​​​​​​​​​​​​​​​​​，到$x_1,x_2,x_3,…,x_n$​​​​​​​​​​​​​​​​​ 的<span style="color:#3da8f5;">线性变换</span>
+            - <span style="border: 1px solid black; padding: 5px; display: inline-block;">$x=Cy$</span>
+    -  ( * )<span style="color:#3da8f5;">式</span> 称为 从$y_i,y_2,y_3,…,y_n$​​​​​​​​​​​​​​​​​，到$x_1,x_2,x_3,…,x_n$​​​​​​​​​​​​​​​​​ 的<span style="color:#3da8f5;">线性变换</span>
     - 若 <u>系数矩阵C</u> **可逆**，即$|C|$​​​ ≠ 0，则称为 **可逆线性变换**
-3.  2) 对于二次型的矩阵表示
-    - **$f(x)=x^TAx$**​​​​​​​​​​  , 令 **$x=Cy$**​​​​
+    ---
+2.   对于二次型的矩阵表示
+    - $f(x)=x^TAx$​​​​​​  , 令 $x=Cy$
         - ↓
-        - 则 **$f(x)=f(Cy)=(Cy)^TA(Cy)$**​​​​​​​​​​​​​​​​​​​​​​
+        - 则 $f(x)=f(Cy)=(Cy)^TA(Cy)$​​​​​​​​​​​​​​​​​​
             - ↓
-            - 即 **$f(x)=y^T(C^TAC)y$**​​​​​​​​​​​​​​​​
+            - 即 $f(x)=y^T(\boxed{C^TAC)}y$​​​​​​​​​​​​
             - 记$B=C^TAC$​​​​​​​
             - ↓
         - 得 $f(x)=y^TBy$​​​​​​​​​​  即 得到一个新二次型 $g(y)=y^TBy$​​​​​​​​​​
 
 </ul>
 
-#### **B.矩阵<span style="color:#75c940;">合同</span>**
+---
+#### 矩阵<span style="color:#75c940;">合同</span><span style="color: gray;">($A \simeq B$ ← $C^TAC=B$ : 3 1 1性质:反 对 传
 
 <ul>
 
@@ -1272,7 +1303,8 @@
     - 则称 $A$​与$B$​ 合同
         - 记为
             ![](https://api2.mubu.com/v3/document_image/d8e7d396-f8ae-40c6-b87c-2dd86e92161e-15201174.jpg)
-    -      称对应的二次型 $f(x)$​​​​ 与 $g(y)$​​​​ 为 <span style="color:#3da8f5;">合同二次型</span>
+    -    称对应的二次型 $f(x)$​​​​ 与 $g(y)$​​​​ 为 <span style="color:#3da8f5;">合同二次型</span>
+    ---
 2.  2)性质
     - a.阐述:
         - A、B 实际 表征 同一事物 在不同 参照系下 不同"形态"
@@ -1283,42 +1315,44 @@
         - 1) 反身 对称 传递
             - ![](https://api2.mubu.com/v3/document_image/7367c906-41b9-447d-a8ae-7d8cbe4a3150-15201174.jpg)
         - 2) 不改变 秩
-            - 若A与B合同 → r(A)=r(B)
+            - 若A与B合同 → <span style="border: 1px solid black; padding: 5px; display: inline-block;">r(A)=r(B)</span>
                 - 则 可逆线性变换 <u>不会改变</u> **二次型的秩**
-        - 3)与 <span style="color:#3da8f5;">对称</span>$A$​<span style="color:#75c940;"> 合同</span>的 矩阵<u>也必定是</u> <span style="color:#3da8f5;">对称</span>矩阵
+        - 3) 与 <span style="color:#3da8f5;">对称</span>$A$​<span style="color:#75c940;"> 合同</span>的 矩阵<u>也必定是</u> <span style="color:#3da8f5;">对称</span>矩阵
             - ![](https://api2.mubu.com/v3/document_image/60e69ee5-40ba-43bf-86d2-102770520ddd-15201174.jpg)
                 - ![](https://api2.mubu.com/v3/document_image/dcb303a8-8fb2-4512-9ebb-92c1c2e96a0f-15201174.jpg)
 
 </ul>
 
-#### **C.二次型的<span style="color:#3da8f5;">标准形</span>、规范形**
+---
+#### ..<span style="color:#3da8f5;">标准形</span><span style="color: gray;">(only $x^2$) →</span> 规范形<span style="color: gray;">(only $x^2$ && 系数only ±1,0 </span>
 
 <ul>
 
-##### **1)基本<span style="background-color:#ffff26;">定义</span>**
+##### <span style="color: gray;">基本定义</span><span style="color: lightgray;">(2+1
 
 <ul>
 
-1.  **a.标准形**
-    - 二次型 中<span style="color:#75c940;">只含</span><span style="color:#3da8f5;">平方项</span> 不含交叉项(所有交叉项的系数为0)
+1.  标准形
+    - 二次型 中<span style="color:#75c940;">只含<span style="border: 1px solid black; padding: 5px; display: inline-block;"></span><span style="color:#3da8f5;">平方项</span></span> 不含交叉项(所有交叉项的系数为0)
         - 形如
             - ![](https://api2.mubu.com/v3/document_image/5cf8f6a3-5d8c-4b93-9b72-6727e22c54be-15201174.jpg)
-2.  ↓
-3.  **b.规范形**
+-  ↓
+2.  规范形
     - 标准型中，系数$d_i$​​​仅为 **1,-1,0**
         - 形如
             - ![](https://api2.mubu.com/v3/document_image/f13dbb5a-1a52-4ae8-b490-fa665ce95750-15201174.jpg)
-4.  **c.<span style="color:#75c940;">合同</span> 标准形/规范形**
-    - 二次型**$f(x)=x^TAx$**​​​​​​​​​​ <span style="color:#75c940;">合同于</span> 标准型$d_1x_1^2+…+d_nx_n^2$​​​​​​​​​​​​​​​​​​​ or 规范型
+3.  合同</span> 标准形/规范形
+    - 二次型$f(x)=x^TAx$​​​​​​ <span style="color:#75c940;">合同于</span> 标准型$d_1x_1^2+…+d_nx_n^2$​​​​​​​​​​​​​​​​​​​ or 规范型
     - 称 该 标准型/规范型 为 二次型的合同标准型/规范型
 
 </ul>
 
-##### **2)性质**
+---
+##### **性质**
 
 <ul>
 
-1.  **a.配方法**
+1.  配方法
     - 任何 二次型 均可通过配方法 化成标准形/标准形
     - ↓
     - 任何 实对称矩阵A，必存在可逆矩阵C，
@@ -1326,7 +1360,7 @@
             - ![](https://api2.mubu.com/v3/document_image/203d8864-b3b2-41ca-98ec-8facd6e8ed86-15201174.jpg)
             - 其中
             - ![](https://api2.mubu.com/v3/document_image/ec971970-1f8f-4090-8a49-b80fd1360f01-15201174.jpg)
-2.  **b.<span style="background-color:#ffff26;">正交变换</span>**
+2.  <span style="color: orange;">正交变换</span>**
     - 任何 二次型 均可通过配方法 化成标准形/标准形
     - ↓
     - 任何 <span style="color:#3da8f5;">实对称矩阵</span>A，必存在 正交矩阵Q 使得
@@ -1338,7 +1372,8 @@
 
 </ul>
 
-#### **add.惯性定理**
+---
+#### <span style="color: gray;">add.</span><span style="color: LightSkyBlue;">惯性</span>定理
 
 <ul>
 
@@ -1354,7 +1389,8 @@
 
 </ul>
 
-### **(2)方法**
+---
+### 方法
 
 <ul>
 
@@ -1367,11 +1403,14 @@
 
 </ul>
 
-## **2 正定二次型**
+---
+---
+## 
+## <span style="color: gray;">2</span> **正定..**<span style="color: gray;">($\forall x ≠0$,$f(x) =x^TAx > 0$: 1definition 2条件</span>
 
 <ul>
 
-### **(0)<span style="background-color:#ffff26;">定义</span>**
+### <span style="color: gray;">定义</span>
 
 <ul>
 
@@ -1382,16 +1421,16 @@
 
 </ul>
 
-### **(1)<span style="background-color:#ffff26;">充要</span><span style="color:#3da8f5;">条件</span>**
+### <span style="color: orange;">充要</span><span style="color:#3da8f5;">条件</span><span style="color: gray;">(3
 
 <ul>
 
-- a.定义
-- b.f 的正惯性指数
-- c.$A$​
-    - ①A与E合同
-    - ②A的特征值$λ_i>0$​​​​​(i = 1,2,…,n)
-    - ③$A$​的全部顺序主子式 均大于 0
+1. 定义
+2. f 的正惯性指数
+3.  $A$​
+    - $A$与$E$合同
+    - ..特征值$λ_i>0$​​​​​(i = 1,2,…,n)
+    - ..​的全部顺序主子式 均$>$ 0
         - A的 **顺序主子式**
             - ![](https://api2.mubu.com/v3/document_image/76a0b698-47b2-4a81-9346-aea728df2b0d-15201174.jpg)
             - ![](https://api2.mubu.com/v3/document_image/b5115cfe-4621-4943-ad43-ded2e2d504ef-15201174.jpg)
@@ -1400,21 +1439,31 @@
 
 </ul>
 
-### **(2)<span style="color:#75c940;">必要</span><span style="color:#3da8f5;">条件</span>(结论)**
+### <span style="color:#75c940;">必要</span><span style="color:#3da8f5;">条件</span>(结论)<span style="color: gray;">(2
 
 <ul>
 
 - a. 主对角线 元素 >0
     - ![](https://api2.mubu.com/v3/document_image/ea330d34-6dcf-47b4-8863-b92436394818-15201174.jpg)
 - b.$|A|$​​​ >0
-- add.判定
-    - 具体型二次型
-    - 抽象型二次型
+
+
+</ul>
+
+---
+### <span style="color: gray;">add.</span>**判定**
+  - 具体型二次型
+  - 抽象型二次型
+</ul>
+
 
 </ul>
 
 </ul>
+</div>
+<div style="float: right; width: 26%; padding: 1%;">
 
-</ul>
+</div>
+<div style="clear: both;"></div>
 
-</ul>
+
