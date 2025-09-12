@@ -1,0 +1,125 @@
+# 具体
+- 求解
+    - 齐次
+        - ①写系数矩阵A
+            - 初等变换→阶梯形
+        - ② 选主元所在列as 极大线性无关
+            - other x设为${\color{gray}m}k_1$${\color{gray}n}k_2$ ← observe 观察巧设
+                - 所在列系数全0，也要设
+        - ③代$k$回origin求解 各$x_i$
+            - 即 use k表示$x_i$
+            - 写为列向量format
+                - ![IMG_20250912_150834](https://github.com/bluejedis/picx-images-hosting/raw/master/linear/IMG_20250912_150834.9gwxdbhej4.jpg)
+                    - ![IMG_20250912_150848](https://github.com/bluejedis/picx-images-hosting/raw/master/linear/IMG_20250912_150848.7axirjpqpf.jpg)
+    - 非..
+        - base
+            - ①写：add常数列 $[\begin{array}{c:c} A&b \end{array}]$
+            - ②..
+                - ..
+            - ③..
+                - ..
+                    - --
+                - 去 常数列 ，**系数**列矩阵组 即为 corresponding 齐次线性微分方程'基础解系
+            - --
+        - 含参
+            - discuss解
+                - 有解
+                    - $r(A)=r([a,b])$
+                    - 唯一
+                        - =..
+                    - 无穷
+                        - ＜n ← 即 同上
+                - 无解
+                    - ..≠..
+
+# 抽象
+- 解
+    - 有解condition
+        - $A_{m×n}x=b$
+            - 当r(A)=m时，方程组有解
+        - $A_{m×n}x=0$
+        - $Ax=0$
+            - at least 有零解
+    - △**结构**
+        - >特解η
+            - 即 非齐 通解中的 常数列
+        - 已知 3个特解η，求非齐'通解
+            - 基础解系
+                - >已知r=2 ←2极大线性无关
+                - ①构造$Ax=0$
+                    - $A(η_1-η_2)=b-b$ ← η是解，可代回x
+                        - 再构造另外2表达式
+                        - ?这里怎么is 6b
+                            - ![IMG_20250912_172428](https://bluejedis.github.io/picx-images-hosting/linear/IMG_20250912_172428.9gwxdgh3ew.jpg)
+                            - ![IMG_20250912_172844](https://bluejedis.github.io/picx-images-hosting/linear/IMG_20250912_172844.7eh4peiibj.jpg)
+            - ②凑特解$Ax=b$
+                - --
+                - more method：求谁设谁
+                    - ![Screenshot_2025-09-12-17-34-45-448_com](https://bluejedis.github.io/picx-images-hosting/linear/Screenshot_2025-09-12-17-34-45-448_com.microsoft.emmx.canary-edit.8vn9r5w6yt.jpg)
+               
+- **基础解系**
+    - >is 系数
+    - 已知.., ensure解向量
+        - 齐：
+            - 将selection 与 .. 组成增广矩阵
+            - $B= [\xi_1 \begin{array}{c:c}\xi_2&\alpha_1 \end{array}\alpha_2 \alpha_3 \alpha_4 ]$
+                - 将左part 化为 最简阶梯形
+                    - 看右who can be线性表出
+        - 非：
+            - $[\begin{array}{c:c} \xi_1 \xi_2 .. & \alpha_i - \eta \end{array}]$
+        - --
+    - 已知..，求变形式 也是 ..
+        - choose 线性无关vector
+            - first排除 能看出表示的
+            - then 写行列式表示
+                - ![Screenshot_2025-09-12-18-03-48-120_com](https://bluejedis.github.io/picx-images-hosting/linear/Screenshot_2025-09-12-18-03-48-120_com.microsoft.emmx.canary-edit.6ikn9zi5mz.jpg)
+    ---
+- 列向量 与 解' relation
+    - >系数 of describe vector组中 vector关系'系数
+        - 非齐'通解
+            - ①基础解系
+                - $Ax=0$ ← 构造表达式为基础解系
+            - ②特解$\eta$
+                - $Ax=\beta$
+        - 判表出 according to 通解
+            - 将通解带回表达式
+                - get：$\alpha_i=$'
+                    - observe 各$\alpha$系数
+                        - 为常 must included
+                        - 含k 则不一定
+              ---
+             - ？:
+                - <span style="color:lightgray"> ？由基础解系个数 can judge r 即 极大线性无关
+                    - 有3个线性相关，能得到B项吗？
+---
+# 
+# 2方程组 公共解
+- 齐次
+    - incorporate 系数matrix![Screenshot_2025-09-12-18-33-44-689_com](https://bluejedis.github.io/picx-images-hosting/linear/Screenshot_2025-09-12-18-33-44-689_com.microsoft.emmx.canary-edit.2obvr24wcy.jpg)
+        - attention计算
+    - <span style="color:lightgray">1个
+        - 求A'通解，将k代入B，再带回A</span>
+    - 2个
+        - 分别求出2者基础解系
+            - 表达式1=..2
+            - through k'关系，得到l1 l2'关系
+                - 从而只保留l1/l2
+                    -  use l表示公共解<span style="color:lightgray"> (or k..</span>
+- 非
+# 同解equations
+- >$A_{m×n}x=0$$B_{s×n}x=0$ have 完全same'解
+    - ![IMG_20250912_185901](https://bluejedis.github.io/picx-images-hosting/linear/IMG_20250912_185901.23284s4ktn.jpg)
+
+- 具体
+    - 含参
+        -  origin组 add一个方程后
+            - add方程 '参meet怎样' 条件，origin与added are 通解equations
+                - origin'通解 also added'
+                    - ↑ 代入add方程 计算 即可
+- 抽象
+    - 证明
+        - $A^Tx=0$与$\begin{bmatrix}A^T \\ b^T\end{bmatrix}x$ are 同解equations ++(Ax=b有解++
+        - ？为什么这个必满足
+            - ![Screenshot_2025-09-12-19-11-26-040_com](https://bluejedis.github.io/picx-images-hosting/linear/Screenshot_2025-09-12-19-11-26-040_com.microsoft.emmx.canary-edit.99tpi4j4db.jpg)
+            - ↑直接
+
