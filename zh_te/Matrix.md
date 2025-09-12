@@ -9,7 +9,7 @@
     - 具体型:number
         - 多个1
             - 拆为$E+B$
-                - ${E+B}^n$
+                - ${(E+B)}^n$
                     - $E^n$+$nE^{n-1}B$+$\frac{n(n-1)}{2!}E^{n-2}B^2$+$\frac{n(n-1)(n-2)}{3!}E^{n-3}B^3$+...+$B^n$
                         - $B^k=O,(k \ge 3$←$B$为上三角
        - 先算$A^2$，checkif can得E'倍数
@@ -32,7 +32,7 @@
                 - 令${\mathbf\beta_1}=\mathbf\alpha_1$
                     - 求$\mathbf\beta_2$
                         
-        
+      ---      
 ## $A^{-1}$
 - num
     - $A^{-1}=\frac{1}{|A|}A*$
@@ -75,15 +75,55 @@
             - $AA^{-1}=E$
                 - 设$A^{-1}= \begin{bmatrix} X & Y \\ Z & W \end{bmatrix}$
                 - 带入condition等式，求$A^{-1}$中参数
-## $A*$
-
-
+    ---
+## $A*$//？left 1推
+- >紧抓$A^{-1}=\frac{A*}{|A|}$、 $AA^{-1}=E$
+- $(A*)^{-1}$
+    - 由$AA^{-1}=E$&$A^{-1}=\frac{A*}{|A|}$
+        - $A\frac{A*}{|A|}=E$
+            - ↑ 移项构造对应关系$(A*)^{-1}A*=E$
+        - $\frac{A}{|A|}A*=E$
+            - ∴ $(A*)^{-1}=\frac{A}{|A|}$
+- $|A*|$
+    - detail怎么推的？
 ---
 ---
 ## 初等A
-
+> 将describe的变换 用$E$变换表示
+    - E左右乘无区别
+- 抽象
+    - 知$|A|^{-1}$,求$B^{-1}$
+        - A交换1、2行←$E_{12}=\begin{bmatrix} 0&1&0 \\ 1&0&0 \\ 0&0&1 \end{bmatrix}$
+        - $B^{-1}=(E_{12}A)^{-1}$
+            - $\color{gray}A^{-1}E_{12}^{-1}$
+        - = $A^{-1}E_{12}$
+    - 2次变换
+        - $B=AE_{12}E_{23}$
+        - 变换表示
+            - 换列
+            - 2列加到3列
+                - ![ ](https://github.com/bluejedis/picx-images-hosting/raw/master/linear/Screenshot_2025-09-12-09-27-33-520_com.microsoft.emmx.canary-edit.1hskhww73u.jpg)
 ## A方程
+- 求B
+    - utilize已知参数等式，变换
+        - usually 左/右乘$A^{-1}$，消参
+            - $A^{-1}$多，directly移项提
+                - 乘积逆'逆向
+                    - 一直约简到simplest
+                - $\bf |A*|=|A|^{n-1}$
+                - $()^{-1}$中常数 外提 避免分数计算
+                    - ？怎么来的
+                    - ![ ](https://bluejedis.github.io/picx-images-hosting/linear/Screenshot_2025-09-12-09-42-33-087_com.microsoft.emmx.canary-edit.6t7h2n118n.jpg)
 
 ---
 ---
-## $r(A)$
+## $r(A)$//left para
+- num
+    - 已知$r(A)$
+        - 初等变换，化为最简阶梯型，求parameter
+            - 2para 在同一 行/列
+                - first 作 该行/列 初等变换
+                    - 后续 行列变换 看情况
+    - A与B
+- 参数
+    - A， n阶、行和same
